@@ -70,12 +70,20 @@ This project instead produces a separate normal distribution for magnitude of up
 
 ## Sample Output
 Report containing 
+
 - % of up-days, % of down-days, % of unchanged days
+  
 - Mean and Standard Deviation for each normal distrbituon for up-days and down-days
+  
 - Starting Price, Mean Final Price, Median Final Price
+  
 - Stock Price that falls under specific percentiles
+  
 - % of simulations that made losses vs % of simulations that made profits
+  
 - % of simulations that hit specific return thresholds
+  
 - Histogram showing distribution of simulated stock prices.
+  
 The overall report can be seen in "Monte Carlo Simulation Results.png" attached in the repository, while the histogram can be seen in "simulation_hisogram.png" attached in the repository.
 
