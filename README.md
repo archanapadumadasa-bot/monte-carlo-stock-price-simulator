@@ -15,7 +15,7 @@ Built as a personal project ahead of starting an economics degree at the Univers
 
 [How to Run It](#how-to-run-it)
 
-[Possible Extensions](#possible-extensions)
+[Sample Output](#sample-output)
 
 ---
 ## What it does
