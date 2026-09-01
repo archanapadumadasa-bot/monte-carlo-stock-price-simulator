@@ -60,4 +60,22 @@ This project instead produces a separate normal distribution for magnitude of up
 -This model can only make predictions based on statistical methods.
 
 ## How to Run it 
+-Requirements : pip3 install pandas numpy matplotlib
+
+-Run : python3 montecarlostocksimulator.py (has been attached in the repository)
+
+-Answer the prompts on how many trading days into the future the model should simulate and how many simulations the model should carry out.
+
+-Input data format: A CSV file containing two columns (date, price) for the given stock should be placed in the same folder as montecarlosimulator.py. For example, sample_stock.csv which is attached in the repository (this is a synthetic sample data set). When using different csv file, change text given beside CSV_PATH in the python program. 
+
+## Sample Output
+Report containing 
+- % of up-days, % of down-days, % of unchanged days
+- Mean and Standard Deviation for each normal distrbituon for up-days and down-days
+- Starting Price, Mean Final Price, Median Final Price
+- Stock Price that falls under specific percentiles
+- % of simulations that made losses vs % of simulations that made profits
+- % of simulations that hit specific return thresholds
+- Histogram showing distribution of simulated stock prices.
+The overall report can be seen in "Monte Carlo Simulation Results.png" attached in the repository, while the histogram can be seen in "simulation_hisogram.png" attached in the repository.
 
